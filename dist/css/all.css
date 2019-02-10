@@ -1,4 +1,4 @@
-@media (min-width: 310px) and (max-width: 1024px) {
+@media (min-width: 310px) and (max-width: 900px) {
   .header {
     width: 100%;
     -ms-flex-wrap: wrap;
@@ -33,10 +33,6 @@
   .invitation__header1 {
     margin-top: 140px !important;
   }
-  .slider-wrapp {
-    width: 90%;
-    padding: 10px !important;
-  }
   .advantages__header {
     font-size: 36px !important;
     text-align: center !important;
@@ -60,34 +56,37 @@
     text-align: center !important;
     padding: 20px !important;
   }
-  .greetings__forms {
-    margin-left: 10px !important;
-  }
   .advantages__header {
     font-size: 23px !important;
   }
-  .greetings__input {
+  .greetings__input_name {
+    width: 90%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-left: 0px !important;
-  }
-  .greetings__input_name {
-    margin-top: 50px !important;
-    width: 300px !important;
   }
   .slider-wrapp {
     padding: 20px !important;
   }
+  .greetings__input {
+    width: 100%;
+    margin-bottom: 2%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    margin-left: 20px !important;
+  }
   .greetings__input_email {
     margin-left: 0px !important;
-    width: 320px !important;
-    padding: 0 !important;
   }
-  .greetings__button {
+  .greetings__forms {
+    width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .slick-prev:before, .slick-next:before {
     display: none;
-  }
-  .greetings__input {
-    display: columns !important;
   }
 }
 
@@ -186,11 +185,14 @@ ul#myLinks a:hover {
     padding: 0;
     margin: 0;
   }
+  .header {
+    height: 100%;
+  }
   .header__logo {
     display: none;
   }
   .logo {
-    margin-left: 80px;
+    margin-left: 7%;
   }
 }
 
@@ -350,6 +352,13 @@ ul.hamburger li:nth-child(3) {
   color: #555555;
 }
 
+.slick-prev:before, .slick-next:before {
+  font-size: 70px;
+  left: -80px;
+  background: black;
+  position: absolute;
+}
+
 .greetings {
   width: 100%;
   height: 900px;
@@ -413,10 +422,10 @@ ul.hamburger li:nth-child(3) {
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
+  margin-top: 140px;
 }
 
 .greetings__input_name {
-  margin-top: 140px;
   border-bottom: 2px solid #959595;
   width: 380px;
   height: 60px;
@@ -447,23 +456,6 @@ ul.hamburger li:nth-child(3) {
   border-radius: 0;
   text-align: left;
   margin-left: 20px;
-}
-
-.greetings__input_label {
-  font-size: 14px;
-  color: #959595;
-  margin-left: 20px;
-  margin-top: 124px;
-}
-
-.greetings__input-with-lab {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .contacts {

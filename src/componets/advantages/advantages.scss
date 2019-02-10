@@ -50,3 +50,11 @@
         color: #555555;
     }
 }
+.slick-prev:before, .slick-next:before {
+    font-size: 70px;
+    left: -80px;
+   
+    background: black;
+    position: absolute;
+
+}

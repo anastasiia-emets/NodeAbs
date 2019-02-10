@@ -9,6 +9,6 @@ document.getElementById('postData').addEventListener('submit', postData);
                 headers : new Headers(),
                 body:JSON.stringify({tittle:input_name, body:input_surname})
             }).then((res) => res.json())
-            .then((data) =>  alert("Succesfull"))
-            .catch((err)=>alert("Error"))
+            .then((data) =>  alert("Succesfull send"))
+            .catch((err)=> alert("Error"))
         }

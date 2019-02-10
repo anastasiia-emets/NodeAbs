@@ -1,5 +1,5 @@
 
-@media (min-width: 310px) and (max-width: 1024px) {
+@media (min-width: 310px) and (max-width: 900px) {
 	.header{
         width: 100%;
         flex-wrap: wrap;
@@ -37,11 +37,7 @@
 
     }
     
-    .slider-wrapp{
-        width: 90%;
-        padding:10px !important;
-        
-    }
+  
     .advantages__header{
         font-size: 36px !important;
         text-align: center !important;
@@ -60,8 +56,7 @@
     }
     .greetings__header{
         font-size: 30px !important;
-        padding: 40px !important;
-       
+        padding: 40px !important;  
         text-align: center !important;
         
     }
@@ -71,36 +66,38 @@
         text-align: center !important;
         padding: 20px !important;
     }
-    .greetings__forms{
-        margin-left:10px !important;
-       
-    }
+   
     .advantages__header{
         font-size: 23px !important;
     }
-    .greetings__input{
-       
-        flex-wrap: wrap;
-        margin-left:0px !important;
-    }
+   
     .greetings__input_name{
-        margin-top:50px !important;
-        width: 300px !important;
+        width: 90%;
+		flex-wrap: wrap;
+       
     }
     .slider-wrapp{
         padding: 20px !important;
       
     }
+    
+    .greetings__input{
+        width: 100%;
+		margin-bottom: 2%;
+        flex-wrap: wrap;
+       justify-content:center !important;
+       margin-left:20px !important;
+    }
     .greetings__input_email{
         margin-left:0px !important;
-        width: 320px !important;
-        padding: 0 !important;
     }
-    .greetings__button{
+    .greetings__forms{
+        width: 90%;
+		flex-wrap: wrap;
+       
+    }
+    .slick-prev:before, .slick-next:before {
         display:none;
-    }
-    .greetings__input{
-        display:columns !important;
     }
     
   

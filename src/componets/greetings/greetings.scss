@@ -42,8 +42,9 @@
     &__input{          
     display: flex;  
     margin: 0 auto;   
+    margin-top:140px;
         &_name{
-            margin-top:140px;
+            
             border-bottom:2px solid #959595;
             width: 380px;
             height: 60px;
@@ -58,7 +59,7 @@
             border-radius: 0;
             text-align:left;
         }
-        &_email{           
+        &_email{
             border-bottom:2px solid #262626;
             width: 380px;
             height: 60px;
@@ -74,17 +75,7 @@
             text-align:left;
             margin-left:20px;
         }
-        &_label{
-            font-size: 14px;
-            color: #959595;
-            margin-left:20px;
-            margin-top:124px;
-
-        }
-    }
-    &__input-with-lab{
-        display:flex;
-        flex-direction: column;
+        
     }
     
 }
