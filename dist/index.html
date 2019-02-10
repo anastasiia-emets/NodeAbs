@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shopy</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans">
+    <link rel="stylesheet" href="./css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha256-etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo=" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha256-zUQGihTEkA4nkrgfbbAM1f3pxvnWiznBND+TuJoUv3M=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="hamburger-container">
+        <ul class="hamburger">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div><img class="logo" alt="logo" src="images/logo.svg">
+      <ul class="header" id="myLinks"> 
+        <li><img class="header__logo" alt="logo" src="images/logo.svg"></li>
+        <li>   <a class="header__link main" href="#main" target="_blank">Main</a></li>
+        <li>   <a class="header__link " href="#adva" target="_blank">Our advantages</a></li>
+        <li><a class="header__link " href="#greet" target="_blank">Greetings</a></li>
+        <li><a class="header__link contact" href="#contact" target="_blank">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="invitation" id="main">
+      <div class="invitation__header1">Welcome to </div>
+      <div class="invitation__header2">Node Ads test task</div>
+      <div class="invitation__description">We are young IT company based in Kyiv, Ukraine. It’s a pleasure to meet you!</div>
+    </div>
+    <div class="advantages" id="adva">
+      <div class="advantages__header">Why our team?</div>
+      <div class="slider-wrapp">
+        <div class="slider"><img class="advantages__icon-money" src="images/dolar.svg" alt="icon">
+          <div class="advantages__description">Competitive salary</div>
+        </div>
+        <div class="slider"><img class="advantages__icon-love" src="images/love-icon.svg" alt="icon">
+          <div class="advantages__description">Friendly environment</div>
+        </div>
+        <div class="slider"><img class="advantages__icon-office" src="images/office.svg" alt="icon">
+          <div class="advantages__description">Cozy office</div>
+        </div>
+        <div class="slider"><img class="advantages__icon-coffee" src="images/coffee.svg" alt="icon">
+          <div class="advantages__description">Tea, coffeе and fruits</div>
+        </div>
+      </div>
+    </div>
+    <div class="greetings" id="greet">
+      <div class="greetings__header">Please, enter required info</div>
+      <div class="greetings__description">So we can get in touch with you</div>
+      <form class="greetings__forms" action="POST" id="postData">
+        <div class="greetings__input">
+          <input class="greetings__input_name" id="name" type="text" placeholder="Name" name="name" required>
+          <div class="greetings__input-with-lab">
+            <label class="greetings__input_label" for="email">Email</label>
+            <input class="greetings__input_email" id="email" type="text" placeholder="mail.mail.com" name="email" required>
+          </div>
+        </div>
+        <button class="greetings__button" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="contacts" id="contact">
+      <div class="contacts__header">Our contacts</div>
+      <div class="contacts__description">If you have any questions about this test task, feel free to ask</div>
+      <div class="contacts__info">
+        <div class="contacts__info_email">info@nodeads</div>
+        <div class="contacts__info_phone">+380950894643</div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/ajax-post.js"></script>
+  </body>
+</html>

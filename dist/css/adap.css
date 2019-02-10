@@ -1,0 +1,92 @@
+@media (min-width: 310px) and (max-width: 1024px) {
+  .header {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__link {
+    display: none;
+  }
+  .greetings__forms {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contacts__info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .contacts__info_email {
+    margin: 0 auto !important;
+  }
+  .contacts__info_phone {
+    margin: 0 auto !important;
+  }
+  .invitation__header1,
+  .invitation__header2 {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+  .invitation__header1 {
+    margin-top: 140px !important;
+  }
+  .slider-wrapp {
+    width: 90%;
+    padding: 10px !important;
+  }
+  .advantages__header {
+    font-size: 36px !important;
+    text-align: center !important;
+    margin-top: 120px !important;
+  }
+  .invitation__description {
+    text-align: center !important;
+    padding: 20px !important;
+    margin-bottom: 100px !important;
+    width: 60% !important;
+  }
+  .invitation {
+    height: auto !important;
+  }
+  .greetings__header {
+    font-size: 30px !important;
+    padding: 40px !important;
+    text-align: center !important;
+  }
+  .contacts__description {
+    text-align: center !important;
+    padding: 20px !important;
+  }
+  .greetings__forms {
+    margin-left: 10px !important;
+  }
+  .advantages__header {
+    font-size: 23px !important;
+  }
+  .greetings__input {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: 0px !important;
+  }
+  .greetings__input_name {
+    margin-top: 50px !important;
+    width: 300px !important;
+  }
+  .slider-wrapp {
+    padding: 20px !important;
+  }
+  .greetings__input_email {
+    margin-left: 0px !important;
+    width: 320px !important;
+    padding: 0 !important;
+  }
+  .greetings__button {
+    display: none;
+  }
+  .greetings__input {
+    display: columns !important;
+  }
+}

@@ -1,0 +1,92 @@
+.greetings{
+    width:100%;
+    height: 900px;
+    background: #EDEDED;
+    flex-direction: column;
+    display:flex;
+    margin: 0 auto;
+    &__header{   
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+        color: #262626;
+        margin-top:230px;
+    }
+    &__description{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        color: #000000;
+        margin-top:24px;
+    }
+    &__forms{      
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__button{
+        width: 250px;
+        height: 60px;
+        background: #262626;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top:100px;
+    }
+  
+    &__input{          
+    display: flex;  
+    margin: 0 auto;   
+        &_name{
+            margin-top:140px;
+            border-bottom:2px solid #959595;
+            width: 380px;
+            height: 60px;
+            background: #EDEDED;
+            font-family: 'Open Sans', sans-serif; 
+            font-size: 18px;
+            text-align: center;
+            color: #959595;
+	        opacity:0.4;
+	        border: none;
+	        border-bottom:2px solid #959595;
+            border-radius: 0;
+            text-align:left;
+        }
+        &_email{           
+            border-bottom:2px solid #262626;
+            width: 380px;
+            height: 60px;
+            background: #EDEDED;
+            font-family: 'Open Sans', sans-serif; 
+            font-size: 18px;
+            text-align: center;
+            color: #959595;
+	        opacity:0.4;
+	        border: none;
+	        border-bottom:2px solid #262626;
+            border-radius: 0;
+            text-align:left;
+            margin-left:20px;
+        }
+        &_label{
+            font-size: 14px;
+            color: #959595;
+            margin-left:20px;
+            margin-top:124px;
+
+        }
+    }
+    &__input-with-lab{
+        display:flex;
+        flex-direction: column;
+    }
+    
+}
+
+

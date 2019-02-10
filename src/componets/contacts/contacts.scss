@@ -1,0 +1,39 @@
+.contacts{
+    width:100%;
+    height: 900px;
+    background-color: white; 
+    flex-direction: column;
+    display:flex;
+    margin: 0 auto;
+    &__header{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+        color: #262626;
+        margin-top:300px;
+    }
+    &__description{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        color: #000000;
+        margin-top:24px;
+    }
+    &__info{
+        display:flex;  
+        margin:0 auto;
+        &_email,
+        &_phone{    
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+            color: #262626;
+            padding-top:70px;
+        }
+        &_email{
+            margin-right:120px;
+        }
+    }
+}

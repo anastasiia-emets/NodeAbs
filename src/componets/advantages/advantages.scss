@@ -1,0 +1,52 @@
+.advantages{
+    width:90%;
+    height: auto;
+    background-color: white; 
+    flex-direction: column;
+    display:flex;
+    margin: 0 auto;
+    &__header{       
+        font-weight: bold;
+        font-size: 48px;
+        color: #262626;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+        margin-top:150px;
+    }
+    .slider{
+        display:flex;
+        margin-top:150px;
+        margin-bottom:200px;       
+    }
+    &__icon-love{
+        width: 153px;
+        height: 140px;
+        margin: 0 auto;
+        margin-bottom:50px;
+    }
+    &__icon-office{
+        width: 109px;
+        height: 140px;
+        margin: 0 auto;
+        margin-bottom:50px;
+    }
+    &__icon-money{
+        width: 75px;
+        height: 140px;
+        margin: 0 auto;
+        margin-bottom:50px;
+    }
+    &__icon-coffee{
+        width: 141px;
+        height: 140px;
+        margin: 0 auto;
+        margin-bottom:50px;
+    }
+    &__description {
+        font-family: 'Open Sans', sans-serif;
+        line-height: 32px;
+        font-size: 18px;
+        text-align: center;
+        color: #555555;
+    }
+}
