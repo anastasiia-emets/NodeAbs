@@ -14,3 +14,6 @@ Includes:
 - Clone repository: `git clone https://github.com/anastasiia-emets/NodeAbs.git`
 - Install gulp [npm](https://www.npmjs.com/): `npm install`
 - Run the project with a gulp [gulp](https://gulpjs.com/): `npx gulp`
+
+
+![alt text](https://github.com/anastasiia-emets/NodeAbs/blob/master/Untitled.png "NodeAbs")
