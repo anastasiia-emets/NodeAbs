@@ -367,7 +367,7 @@ ul#myLinks a:hover {
   position: absolute !important;
   top: calc(50% - 40px) !important;
   right: 0px !important;
-  background-image: url(../../images/arrow.svg);
+  background-image: url(../images/arrow.svg);
   background-repeat: no-repeat;
   background-color: white;
   color: white;
