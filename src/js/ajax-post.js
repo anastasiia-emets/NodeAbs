@@ -1,14 +1,13 @@
-document.getElementById('postData').addEventListener('submit', postData);
+document.querySelector('.greetings__input_name').addEventListener('submit', postData);
 
- function postData(event){
-            event.preventDefault();
-            let input_name = document.getElementById('name').value;
-            let input_surname= document.getElementById('email').value;
-            fetch('https://jsonplaceholder.typicode.com/posts', {
-                method: 'POST',
-                headers : new Headers(),
-                body:JSON.stringify({tittle:input_name, body:input_surname})
-            }).then((res) => res.json())
-            .then((data) =>  alert("Succesfull send"))
-            .catch((err)=> alert("Error"))
-        }
+function postData(event) {
+    event.preventDefault();
+    let inputName = document.getElementById('name').value;
+    let inputSurname = document.getElementById('email').value;
+    fetch('https://jsonplaceholder.typicode.com/posts', {
+        method: 'POST',
+        body: JSON.stringify({ tittle: inputName, body: inputSurname })
+    }).then((res) => res.json())
+        .then((data) => alert("Succesfull send"))
+        .catch((err) => alert("Error"))
+}
